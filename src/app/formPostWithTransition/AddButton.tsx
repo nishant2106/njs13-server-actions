@@ -25,7 +25,6 @@ export default function AddButton({
           });
         }}
         type="submit"
-        className="bg-blue-600 disabled:bg-gray-600 inline-flex rounded-lg items-center  h-20 w-20"
       >
         Add Todo
       </button>

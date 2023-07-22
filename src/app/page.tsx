@@ -3,13 +3,18 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="p-5">
-      <Link href={"/formPost"} className="text-4xl font-bold">
-        Sample form Post
-      </Link>
-      <br />
-      <Link href={"/formPostWithStatus"} className="text-4xl font-bold">
-        Sample form Post With Status
-      </Link>
+      <div>
+        <Link href="/formPost">Simple Form Post</Link>
+      </div>
+      <div>
+        <Link href="/formPostWithStatus">Form Post With Status</Link>
+      </div>
+      <div>
+        <Link href="/formPostWithTransition">Form Post With Transition</Link>
+      </div>
+      <div>
+        <Link href="/pokemonSearch">Pokemon Search</Link>
+      </div>
     </main>
   );
 }
